@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>📉 지금 이 종목, 알고 계셨나요?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2025년 하반기 주식 시장을 흔들 종목 하나, 지금 바로 확인하세요.">
+  <meta property="og:title" content="📉 지금 이 종목, 알고 계셨나요?">
+  <meta property="og:description" content="하락장에서 반등하는 신호, 지금 먼저 보셔야 할 때입니다.">
+  <meta property="og:image" content="https://i.ibb.co/bjbB76k1/image.jpg">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      margin: 8px 0;
+    }
+    .count {
+      font-size: 14px;
+      color: #d9534f;
+      margin-top: 20px;
+    }
+    a.button {
+      display: inline-block;
+      background: #007bff;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+
+  <script>
+    let seconds = 1
+    function updateCountdown() {
+      const el = document.getElementById('countdown');
+      if (seconds > 0) {
+        el.innerText = seconds + '초 후 상세 내용 확인됩니다...';
+        seconds--;
+        setTimeout(updateCountdown, 1000);
+      } else {
+        window.location.href = "https://t.me/+kCFlg3cAlGUyMWY1"; // 여기에 실제 이동 링크 입력
+      }
+    }
+    window.onload = updateCountdown;
+  </script>
+</head>
+<body>
+  <h1>📢 “지금 이 종목, 전문가들이 먼저 매집 중입니다”</h1>
+  <p>📊 차트상 이상 반응을 보이고 있는 종목이 하나 포착됐습니다.</p>
+  <p>📈 아직 공개 전이지만, 오늘 안에 움직일 가능성이 있습니다.</p>
+
+  <a class="button" href="https://t.me/+kCFlg3cAlGUyMWY1" target="_blank">👉 지금 바로 종목 확인하기</a>
+
+  <p class="count" id="countdown">5초 후 상세 내용 확인됩니다...</p>
+</body>
+</html>
